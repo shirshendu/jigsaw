@@ -1,0 +1,52 @@
+#sortable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+}
+#sortable li {
+  margin: 0;
+  padding: 0px;
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+.ui-state-default {
+  border: 1px solid #d3d3d3;
+  font-weight: normal;
+  color: #555555;
+}
+.bg-img {
+  background-image: url('tower_bridge.jpg');
+  background-repeat: no-repeat;
+  background-position: top left; 
+  width: 100px;
+  height: 100px;
+}
+#loc-0 .bg-img {
+  background-position: top left;
+}
+#loc-1 .bg-img {
+  background-position: top center;
+}
+#loc-2 .bg-img {
+  background-position: top right;
+}
+#loc-3 .bg-img {
+  background-position: center left;
+}
+#loc-4 .bg-img {
+  background-position: center center;
+}
+#loc-5 .bg-img {
+  background-position: center right;
+}
+#loc-6 .bg-img {
+  background-position: bottom left;
+}
+#loc-7 .bg-img {
+  background-position: bottom center;
+}
+#loc-8 .bg-img {
+  background-position: bottom right;
+}
