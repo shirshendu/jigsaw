@@ -16,12 +16,18 @@ $(function() {
     $("#moves").text(moves);
   };
   $( "#sortable" ).sortable({
+    start: function(event, ui) {
+      $("#red-bulb").removeClass('lit');
+      $("#green-bulb").removeClass('lit');
+    },
     update: function(event, ui) {
       addMove();
       if(correctLocations()) {
-        $("#result").text('Correct');
+        $("#result").text('Done!');
+        $("#green-bulb").addClass('lit');
       } else {
-        $("#result").text('Wrong.  Wrong!  WRONG!!!!');
+        $("#result").text('Nope, keep trying!');
+        $("#red-bulb").addClass('lit');
       }
     }
   });

@@ -1,0 +1,15 @@
+.bulb {
+  width: 150px;
+  height: 130px;
+  background-position: -150px 0;
+  display: inline-block;
+}
+.green.bulb {
+  background-image: url('greenbulb.png');
+}
+.red.bulb {
+  background-image: url('redbulb.png');
+}
+.bulb.lit {
+  background-position: 0 0;
+}

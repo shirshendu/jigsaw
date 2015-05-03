@@ -1,3 +1,7 @@
+body {
+  background: rgb(70, 72, 75);
+  color: white;
+}
 #sortable {
   list-style-type: none;
   padding: 0;
@@ -6,6 +10,7 @@
   display: block;
   border: 5px;
   border-style: inset;
+  margin-top: 0px;
 }
 #sortable li {
   margin: 0;
@@ -13,9 +18,15 @@
   float: left;
   width: 100px;
   height: 100px;
+  cursor: move;
 }
 .container {
   display: block;
+  width: 800;
+  font-family: 'Press Start 2P';
+}
+#result {
+  margin-top: 20px;
 }
 .center {
   text-align: center;

@@ -4,12 +4,18 @@
   <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
   <script src="jquery.shuffle.js"></script>
   <script src="script.js"></script>
-<link rel="stylesheet" type="text/css" href="style.css">
+  <link href="http://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="bulb.css">
 </head>
 
 <body >
-
-<div class="container">
+<div class="container center">
+  <div class="center">Puzzle away!</div>
+  <div class="center">
+    <div id="red-bulb" class="red bulb"></div>
+    <div id="green-bulb" class="green bulb"></div>
+  </div>
   <ul id="sortable" class="center">
     <li class="ui-state-default" id="loc-0"><div class="bg-img"></div></li>
     <li class="ui-state-default" id="loc-1"><div class="bg-img"></div></li>
@@ -21,8 +27,8 @@
     <li class="ui-state-default" id="loc-7"><div class="bg-img"></div></li>
     <li class="ui-state-default" id="loc-8"><div class="bg-img"></div></li>
   </ul>
-  <div id="moves" class="center">0</div>
-  <div id="result" class="center"></div>
+  <div class="center">Moves: <span id="moves">0</span></div>
+  <div id="result" class="center">Show these blocks their rightful place.</div>
 </div>
 
 </body>
