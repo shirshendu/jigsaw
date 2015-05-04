@@ -5,10 +5,10 @@
   display: inline-block;
 }
 .green.bulb {
-  background-image: url('greenbulb.png');
+  background-image: url('../assets/greenbulb.png');
 }
 .red.bulb {
-  background-image: url('redbulb.png');
+  background-image: url('../assets/redbulb.png');
 }
 .bulb.lit {
   background-position: 0 0;

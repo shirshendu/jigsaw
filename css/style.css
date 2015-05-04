@@ -43,7 +43,7 @@ body {
   color: #555555;
 }
 .bg-img {
-  background-image: url('tower_bridge.jpg');
+  background-image: url('../assets/tower_bridge.jpg');
   background-repeat: no-repeat;
   background-position: top left; 
   width: 100px;
