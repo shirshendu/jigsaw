@@ -16,6 +16,8 @@ $(function() {
     $("#moves").text(moves);
   };
   $( "#sortable" ).sortable({
+    tolerance: 'pointer',
+    revert: 100,
     start: function(event, ui) {
       $("#red-bulb").removeClass('lit');
       $("#green-bulb").removeClass('lit');

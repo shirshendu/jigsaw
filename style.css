@@ -20,13 +20,15 @@ body {
   height: 100px;
   cursor: move;
 }
-.container {
-  display: block;
-  width: 800;
+#main {
   font-family: 'Press Start 2P';
 }
+#heading {
+  margin-top: 1em;
+  margin-bottom: 0;
+}
 #result {
-  margin-top: 20px;
+  margin-top: 2em;
 }
 .center {
   text-align: center;
