@@ -26,7 +26,7 @@ $(function() {
         $("#result").text('Done!');
         $("#green-bulb").addClass('lit');
       } else {
-        $("#result").text('Nope, keep trying!');
+        $("#result").text('Not yet, keep trying!');
         $("#red-bulb").addClass('lit');
       }
     }
